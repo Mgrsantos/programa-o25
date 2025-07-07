@@ -38,9 +38,14 @@
       <p>React, Next.js, Astro e Svelte continuam crescendo em performance, DX e suporte a SSR/SSG.</p>
     </section>
   </main>
-
   <footer>
-    <p>Desenvolvido por Gabriela Rondon © 2025</p>
-  </footer>
-</body>
-</html>
+  <p>Desenvolvido por Gabriela Rondon © 2025</p>
+
+  <div class="contact-form">
+    <p>Quer saber mais? Envie seu e-mail:</p>
+    <form onsubmit="event.preventDefault(); alert('Obrigado! Em breve entrarei em contato.')">
+      <input type="email" placeholder="Digite seu e-mail" required />
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+</footer>
